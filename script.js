@@ -22,14 +22,7 @@ $(function(){
   });
 })
 
-// $(function(){
-//   $(".test").mouseover(function(){
-//     $(this).children(".tes").stop().slideDown(250);
-//   });
-//   $(".test").mouseout(function(){
-//     $(".tes").stop().slideUp(50);
-//   });
-// })
+
 
 $(function () {
   $('.js-btn').on('click', function () { // js-btnクラスをクリックすると、
@@ -39,34 +32,4 @@ $(function () {
   });
 });
 
-// $(function () {
-//   $('.js-btn').on('click', function () {
-    
-    // $('.nav').toggleClass('open');
-    // $('.nav').slideDown(500);
-   
-    // $('.nav').slideToggle(230);
-//   });
-// });
-// $('.has-sub.test').mouseover(
-//   function(){
-//    $(this).removeClass('close');
-//   },
-//   function(){
-//     $(this).addClass('close');
-//   });
-  // $(function(){
-    // 	$('.has-sub').hover(function(){
-// 		$(this).toggleClass('selected');
-// 		$(this).next().slideToggle();
-// 	});
-// });
-// $(function(){
-//   $(".test").mouseover(function(){
-//     $(this).children(".tes").stop().slideDown(250);
-//   });
-//   $(".test").mouseout(function(){
-  //     $(".tes").stop().slideUp(50);
-  //   });
-  // })
-  // 
+
